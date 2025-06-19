@@ -26,7 +26,7 @@ src/
 
 ## Principais Bibliotecas
 
-- **express:** Framework web para Node.js
+- **express:** Framework
 - **prisma:** ORM para banco de dados relacional
 - **jsonwebtoken:** Autenticação via JWT
 - **bcrypt:** Hash de senhas
