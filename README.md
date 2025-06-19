@@ -1,4 +1,4 @@
-# delivery-api
+# delivery-api 📦
 
 API de entregas de encomendas desenvolvida em Node.js com TypeScript, Express e Prisma.
 
