@@ -1,4 +1,4 @@
-# delivery-api
+# delivery-api 📦
 
 API de entregas de encomendas desenvolvida em Node.js com TypeScript, Express e Prisma.
 
@@ -26,7 +26,7 @@ src/
 
 ## Principais Bibliotecas
 
-- **express:** Framework web para Node.js
+- **express:** Framework
 - **prisma:** ORM para banco de dados relacional
 - **jsonwebtoken:** Autenticação via JWT
 - **bcrypt:** Hash de senhas
