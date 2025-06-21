@@ -2,10 +2,15 @@
   "name": "delivery-api",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch --env-file .env src/server.ts",
     "test": "jest",
-    "test:dev": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watchAll --runInBand"
+    "test:dev": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watchAll --runInBand",
+    "build": "tsup --out-dir build",
+    "start": "node build/server.js"
   },
   "license": "ISC",
   "author": "Guilherme Sanches",
@@ -33,6 +38,7 @@
     "supertest": "^7.1.1",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
     "typescript": "^5.5.4"
   }
 }
