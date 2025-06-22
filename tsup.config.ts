@@ -7,5 +7,5 @@ export default defineConfig({
   clean: true,
   shims: false,
   dts: false,
-  external: ['@prisma/client', '.prisma/client'], // Evita que o Prisma seja bundleado
+  external: ['@prisma/client', '.prisma/client'],
 })
