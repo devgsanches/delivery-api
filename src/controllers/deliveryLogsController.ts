@@ -89,6 +89,10 @@ export class DeliveryLogsController {
       },
     })
 
+    if (!delivery) {
+      throw new AppError('This delivery does not exist.', 404)
+    }
+
     // regra de negócio
     if (req.user?.role === 'customer' && req.user?.id !== delivery?.userId) {
       throw new AppError('the user can only view their deliveries', 401)
